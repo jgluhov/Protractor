@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	.uk-container.uk-container-center
+		.uk-block
+			form.uk-form(name='postForm' novalidate)
+				.uk-form-row
+					label.uk-form-label(for='title') Title
+					.uk-form-controls
+						input#title.uk-form-large.uk-width-1-1(type='text' name='title' placeholder='Title')
+				.uk-form-row
+					label.uk-form-label(for='content') Content
+					.uk-form-controls
+						textarea#content.uk-form-large.uk-width-1-1(type='text' rows='10' name='content' placeholder='Content')
+				.uk-form-row
+					button.uk-button(type='button') Submit
+
+
+	//button.uk-button(type='button') Submit

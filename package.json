@@ -1,0 +1,27 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "Protractor demo application for testing",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgluhov/Protractor.git"
+  },
+  "keywords": [
+    "Protractor"
+  ],
+  "author": "jgluhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgluhov/Protractor/issues"
+  },
+  "homepage": "https://github.com/jgluhov/Protractor#readme"
+}

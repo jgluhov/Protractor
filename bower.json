@@ -1,0 +1,25 @@
+{
+  "name": "Protractor",
+  "authors": [
+    "jgluhov <jgluhov@gmail.com>"
+  ],
+  "description": "Protractor demo application for testing",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "Protractor"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "uikit": "~2.23.0"
+  }
+}
